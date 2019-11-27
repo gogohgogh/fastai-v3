@@ -10,10 +10,10 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 #edit here!!
-export_file_url = 'https://drive.google.com/uc?export=download&id=1-4pUkgZqxXQ7jF7xs0JL9RbRNfH0FQXi'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1RnyFlr2XXdi8f2THFQTStTawFbTZjD8h'
+export_file_name = 'export(1).pkl'
 
-classes = ['bulbasaur', 'pikachu', 'charmander', 'squirtle'] #stop here
+classes = ['infant', 'youth', 'adult','elderly'] #stop here
 path = Path(__file__).parent
 
 app = Starlette()
